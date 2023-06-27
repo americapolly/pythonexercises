@@ -5,4 +5,4 @@ tF = float (input("Digite a temperatura em Fº(Fahrenheit): "))
 
 tC = (tF-32)/1.8
 
-print("Temperatura em Celsius: {:.1f}".format(tC))
+print("{:.1f}ºF = {:.1f}ºC".format(tF, tC))
